@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40%;
+    margin: auto;
+    background-color: #CCC5B9;
+}
+
+/* .settings {
+    width: '100%';
+    height: '50%';
+    justify-content: center;
+    align-items: flex-nd;
+   background-color: #403D39;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+} */
+
+.resultsContainer {
+    width: 100%;
+    height: 35%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.resultTextContainer {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #403D39;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.resultContainer {
+    width: '100%';
+    height: '50%';
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.result {
+    font-size: 60px;
+    text-align: 'right';
+    margin: 10% 20px 10% 0;
+    color: #252422;
+    font-weight: 'bold';
+}
+
+.resultText {
+    font-size: 30px;
+    text-align: 'right';
+    margin-right: 20px;
+    margin-top: '5%';
+    color: #fff;
+}
+
+.buttonContainer {
+    height: 65%;
+    padding: 20px;
+    background-color: #403D39;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.buttonGroupContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: '100%';
+    margin-bottom: 10px;
+}
+
+.greyButton {
+    background-color: #CCC5B9;
+    color: #403D39;
+}
+
+
+.button {
+    flex: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    background-color: #CCC5B9;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #252422;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttonEq {
+    background-color: #EB5E28;
+    width: 156.5px;
+    color: #FFF;
+}
+
+.buttonOperand {
+    background-color: #E63946;
+    color: #fff;
+}
+
+.buttonDel {
+    background-color: #252422;
+    color: #FFF;
+    width: 156.5px;
+}
+
+.buttonAc {
+    background-color: #252422;
+    color: #E63946;
+}
